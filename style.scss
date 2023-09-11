@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@900&display=swap');
+/*font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+$colortitulos: #9FBDDB;
+$colortextos:black;
+$detalles1:#A5B7F2;
+$detalles2:#A09EE8;
+$detalles3:#A5E0F2;
+$detalles4:#9EE8E6;
+$sombra1: white;
+$fuentem:'Montserrat', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $detalles1;
+    font-family: 'Lato', sans-serif;
+}
+.barra{
+    background-color: $detalles2;
+}
+.logo{
+    font-family: $fuentem;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    color: $colortitulos;
+}
+ul li{
+    font-size: 20px;
+    padding: 20px;
+    :hover{
+        transform: scale(1.3)
+    }
+}
+li a{
+    text-decoration: none;
+    color: black !important;
+}
+.imgilus{
+    height: 400px !important;
+    object-fit: contain;
+    object-position: center;
+}
+.eslogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(/Imagenes/Recepcion/recepcion.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.eslogan1{
+    display: inline-block;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: left;
+    text-shadow: 2px 2px 2px $sombra1;
+    font-family: $fuentem;
+    font-size: 25px;
+}
+.parrafo1{
+    width: 50%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 2px 2px 2px $sombra1;
+    align-items: start;
+    background-color: rgba(240, 248, 255, 0.459);
+}
+.seccionsuperior{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.caja{
+    width: 300px;
+    margin: 40px;
+    text-align: center;
+    padding: 0px;
+}
+.titulos{
+    font-family: $fuentem;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.parrafos{
+    font-size: large;
+    color: $colortextos;
+}
+.seccionmedia{
+    background-color: $detalles2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+        p{
+            text-align: center;
+            padding: 30px;
+            color: $colortextos;
+        }
+}
+.seccionbaja{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+form{
+    width: 350px;
+    height: 400px;
+    padding-left: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+        label{
+            padding: 3px;
+        }
+        input{
+            width: 200px;
+        }
+        button{
+            width: 50px;
+            margin: 10px;
+        }
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    :hover{
+        transform: scale(1.3)
+    }
+}
+.redes1 a{
+    margin-left: 40px;
+    padding: 20px;
+}
+.imagencelu{
+    img{
+        height: 500px;
+    }
+    :hover{
+        transform: rotateY(380deg);
+        transition: all 5s;
+    }
+}
+i{
+    letter-spacing: 20px;
+    font-size: 50px;
+}
+.seccionbaja h3{
+    display: inline-block;
+    font-size: 25px;
+    font-family: $fuentem;
+}
+footer{
+    height: 120px;
+    background-color: $detalles2;
+    margin-top: 30px;
+        li{
+            :hover{
+                transform: scale(1.3)
+            }
+        }
+        p{
+            text-align: center;
+            color: black;
+        }
+        a{
+            color: black !important;
+        }
+}
+.contacto{
+    :hover{
+        transform:scale(1.5);
+        transition: all 3s;
+    }
+}
