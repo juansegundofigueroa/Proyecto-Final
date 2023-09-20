@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@900&display=swap');
-/*font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;*/
-$colortitulos: #9FBDDB;
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+*/
+$colortitulos: #D99B66;
 $colortextos:black;
-$detalles1:#A5B7F2;
-$detalles2:#A09EE8;
-$detalles3:#A5E0F2;
-$detalles4:#9EE8E6;
+$detalles1: #A65746;
+$detalles2: #736436;
+$detalles3: #260101;
 $sombra1: white;
 $fuentem:'Montserrat', sans-serif;
 
@@ -18,9 +20,12 @@ $fuentem:'Montserrat', sans-serif;
     color: $detalles1;
     font-family: 'Lato', sans-serif;
 }
+
 .barra{
     background-color: $detalles2 !important;
+    margin-bottom: 50px;
 }
+
 .logo{
     font-family: $fuentem;
     text-align: center;
