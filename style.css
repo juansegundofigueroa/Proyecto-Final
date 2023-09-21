@@ -15,6 +15,7 @@ font-family: 'Montserrat', sans-serif;
 .barra {
   background-color: #736436 !important;
   margin-bottom: 50px;
+  width: auto;
 }
 
 .logo {
@@ -125,9 +126,7 @@ li a {
 }
 
 form {
-  width: 350px;
   height: 400px;
-  padding-left: 30px;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -182,6 +181,7 @@ i {
 footer {
   background-color: #736436;
   margin-top: 20px;
+  width: auto;
 }
 footer li :hover {
   transform: scale(1.3);

@@ -23,6 +23,7 @@ $fuentem:'Montserrat', sans-serif;
 .barra{
     background-color: $detalles2 !important;
     margin-bottom: 50px;
+    width: auto;
 }
 
 .logo{
@@ -120,9 +121,8 @@ li a{
     margin: 20px;
 }
 form{
-    width: 350px;
+
     height: 400px;
-    padding-left: 30px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -175,6 +175,7 @@ i{
 footer{
     background-color: $detalles2;
     margin-top: 20px;
+    width: auto;
         li{
             :hover{
                 transform: scale(1.3)
